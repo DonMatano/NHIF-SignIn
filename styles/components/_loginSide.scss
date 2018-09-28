@@ -1,0 +1,25 @@
+.loginSide{
+    background-color: white;
+    border-top-right-radius:26px;
+    border-bottom-right-radius:26px;
+    height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    .form{
+        margin: 1rem;
+    }
+    .loginSmallText{
+        display: block;
+        width: 30%;
+        margin: auto;
+        .login-link {
+            display: block;
+            font-weight: bold;
+            font-size: 1rem;
+            color: rgb(82, 182, 240)
+        }
+    }
+
+}

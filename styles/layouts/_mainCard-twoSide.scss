@@ -1,0 +1,13 @@
+.mainCard-twoSide{
+    display: flex;
+    width: 100%;
+    .mainCardSide{
+        width: 50%;
+        &.mainCardSide-one {
+            order: 1
+        }
+        &.mainCardSide-two {
+            order: 2
+        }
+    }
+}
